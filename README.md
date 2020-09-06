@@ -72,17 +72,21 @@
     - `masw.ipynb` for processing and post-processing,
     - `.json` file from processing,
     - `.json` file from post-processing.
+- [raw_data](https://github.com/jpvantassel/sw-template/blob/master/raw_data)
+  - Includes the data in its most raw form. It includes, two subdirectories
+    `active` and `passive` for each type of testing performed.
+  - Each directory should include a `meta` directory will any relevant
+    meta information.
 - [reports](https://github.com/jpvantassel/sw-template/blob/master/reports)
   - Includes incoming and out-going summary reports. Should contain a
     subdirectory indicating where it is going or who it is from (e.g., `from_jd`
     to indicate a report from `Jane Doe`). The directory should include
     the report and any supporting information and figures. Avoid performing
     analyses in these directories.
-- [raw_data](https://github.com/jpvantassel/sw-template/blob/master/raw_data)
-  - Includes the data in its most raw form. It includes, two subdirectories
-    `active` and `passive` for each type of testing performed.
-  - Each directory should include a `meta` directory will any relevant
-    meta information.
+- [site_information](https://github.com/jpvantassel/sw-template/blob/master/site_information)
+  - Includes site information such as general geologic information, site
+    specific references, invasive testing data/results, and other useful
+    references for performing surface wave inversion.
 - [spac](https://github.com/jpvantassel/sw-template/blob/master/mspac)
   - Includes results of the spatial auto-correlation processing, specifically:
     - `.max` and `.log` files for each 2D array.
